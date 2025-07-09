@@ -1,3 +1,11 @@
+.klaus-wrapper {
+  position: relative;
+  width: 600px;
+  margin: 60px auto;
+  font-family: sans-serif;
+}
+
+/* BOÎTES VERTES */
 .klaus-box {
   position: absolute;
   background: #88aa4c;
@@ -6,23 +14,46 @@
   border-radius: 8px;
   width: 120px;
   text-align: center;
-  transform: rotate(-10deg);
   transition: transform 0.4s ease;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 }
+
+.box1 { top: -40px; left: -40px; transform: rotate(-10deg); }
+.box2 { bottom: -40px; left: -40px; transform: rotate(-10deg); }
+.box3 { top: -50px; right: -30px; transform: rotate(-12deg); }
+.box4 { bottom: -40px; right: 60px; transform: rotate(8deg); }
+.box5 { top: 50%; right: -80px; transform: rotate(10deg) translateY(-50%); }
+
+/* HOVER EFFECT */
+.klaus-wrapper:hover .box1 { transform: translate(-10px, -10px) rotate(-15deg); }
+.klaus-wrapper:hover .box2 { transform: translate(-10px, 10px) rotate(-5deg); }
+.klaus-wrapper:hover .box3 { transform: translate(10px, -15px) rotate(-20deg); }
+.klaus-wrapper:hover .box4 { transform: translate(15px, 10px) rotate(15deg); }
+.klaus-wrapper:hover .box5 { transform: translate(20px, -10px) rotate(25deg); }
+
+/* BLOC CENTRAL */
 .klaus-main {
   background: linear-gradient(135deg, #d54728, #f4cfd1);
   padding: 20px;
-  font-family: 'Georgia', serif;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   position: relative;
   z-index: 2;
 }
+
+/* TITRE */
+.klaus-main h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* LETTRINE */
 .klaus-lettrine::first-letter {
   float: left;
   font-size: 2.8em;
   line-height: 1;
   padding-right: 8px;
   font-weight: bold;
+  font-family: Georgia, serif;
 }
-.klaus-wrapper:hover .box1 { transform: translate(-10px, -10px) rotate(-15deg); }
-/* Ajoute le reste... */
