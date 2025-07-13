@@ -78,8 +78,8 @@ h1 {
     font-family: 'Kumar One Outline', cursive;
 		float: left;
 		margin-right: .1em;
-		padding-bottom: 0.5em;
-		color: green;
+		padding-top: 0.3em;
+		color: red;
     font-weight: 900;
     font-size: calc(var(--n) * 1em);
     line-height: 1em;
