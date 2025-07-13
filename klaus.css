@@ -78,8 +78,8 @@ h1 {
     font-family: 'Manufacturing Consent', cursive;
 		float: left;
 		margin-right: .1em;
-		padding-top: 0.361em;
-		color: pink;
+		padding-top: 0em;
+		color: green;
     font-weight: 900;
     font-size: calc(var(--n) * 1em);
     line-height: 0.7em;
