@@ -79,7 +79,7 @@ h1 {
 		float: left;
 		margin-right: .1em;
 		padding-top: 0.25em;
-		color: green;
+		color: red;
     font-weight: 900;
     font-size: calc(var(--n) * 1em);
     line-height: 0.7em;
