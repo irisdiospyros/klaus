@@ -76,7 +76,7 @@ h1 {
     margin-bottom: -0.5em;
 		color: crimson;
     font-weight: 900;
-    font-size: calc(var(--n) * 1.3em);
+    font-size: calc(var(--n) * 1.29em);
     line-height: 1.7em;
 	}
 }
