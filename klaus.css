@@ -18,7 +18,7 @@
   width: 60%;
   height: 60%;
   transform: translate(-50%, -50%);
-  background: linear-gradient(315deg, #1f856e, black);
+  background: linear-gradient(315deg, #1f856e, red);
   border-radius: 8px;
   filter: drop-shadow(0 0 30px rgba(223, 81, 131, 0.5));
   display: flex;
@@ -73,6 +73,7 @@ h1 {
     font-family: 'Kumar One Outline', cursive;
 		float: left;
 		margin-right: .1em;
+		margin-bottom: -0.2em;
 		color: crimson;
     font-weight: 900;
     font-size: calc(var(--n) * 1em);
