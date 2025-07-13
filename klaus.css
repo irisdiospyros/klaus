@@ -2,23 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
 
-*
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: consolas;
-}
-
-body
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #1d061a
-}
-
 .container .box {
   position: relative;
   margin: 0 auto;
