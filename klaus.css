@@ -79,9 +79,9 @@ h1 {
 		float: left;
 		margin-right: .1em;
 		padding-top: 0.1em;
-		color: pink;
+		color: black;
     font-weight: 900;
-    font-size: calc(var(--n) * 1em);
+    font-size: calc(var(--n) * 1.3em);
     line-height: 0.7em;
 	}
 }
