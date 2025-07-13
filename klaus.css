@@ -18,7 +18,7 @@
   width: 60%;
   height: 60%;
   transform: translate(-50%, -50%);
-  background: linear-gradient(315deg, #1f856e, #dc546d);
+  background: linear-gradient(315deg, #1f856e, black);
   border-radius: 8px;
   filter: drop-shadow(0 0 30px rgba(223, 81, 131, 0.5));
   display: flex;
