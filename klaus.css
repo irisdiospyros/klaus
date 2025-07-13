@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
 
+body {
+	background-color: green;
+}
+
+
 .container .box {
   position: relative;
   margin: 0 auto;
@@ -77,6 +82,6 @@ h1 {
 		color: crimson;
     font-weight: 900;
     font-size: calc(var(--n) * 1em);
-    line-height: 1.3em;
+    line-height: 1.5em;
 	}
 }
