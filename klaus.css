@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
 
 body {
-	background-color: green;
+	background-color: green; !important
 }
 
 
@@ -39,7 +39,7 @@ body {
   margin-top: -13px;
 }
 
-.container .box .content /* ombre */
+.container .box .content-post /* ombre */
 {
   position: relative;
   left: 0;
