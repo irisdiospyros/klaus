@@ -24,6 +24,10 @@
   color: #fff;
 }
 
+p.text {
+  margin: 0 !important;
+}
+
 .text {
   font-family: 'Barlow Semi Condensed', cursive;
   font-size: 1rem;
@@ -34,7 +38,8 @@
 	width: min(100%, 40em);
   font-family: 'Barlow Semi Condensed', cursive;
   border-radius: 20px;
-  margin: 0px !important
+  margin: 0px; !important
+  white-space: pre-line; 
 	
 	&:first-letter {
     font-family: 'Manufacturing Consent', cursive;
