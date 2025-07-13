@@ -16,29 +16,6 @@ body {
   align-items: center;
 }
 
-.title {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  width: 60%;
-  height: 60%;
-  transform: translate(-50%, -50%);
-  background: linear-gradient(315deg, #1f856e, black);
-  border-radius: 8px;
-  filter: drop-shadow(0 0 30px rgba(223, 81, 131, 0.5));
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  transition: transform 0.4s ease;
-  z-index: 0;
-}
-
-.title > p {
-  background-color: black;
-  margin-top: -13px;
-}
-
 .container .box .content-post /* ombre */
 {
   position: relative;
@@ -79,7 +56,7 @@ h1 {
 		float: left;
 		margin-right: .1em;
 		padding-top: 0.095em;
-		color: orange;
+		color: #851d30;
     font-weight: 900;
     font-size: calc(var(--n) * 1.25em);
     line-height: 0.7em;
