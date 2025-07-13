@@ -2,11 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
 
-body {
-	background-color: green; !important
-}
-
-
 .container .box {
   position: relative;
   margin: 0 auto;
@@ -29,16 +24,6 @@ body {
   color: #fff;
 }
 
-.title:hover {
-  transform: translate(-50%, -80%)
-}
-
-h1 {
-  font-family: 'Nanum Pen Script', cursive;
-  font-size: 3rem;
-  margin-top: 1rem;
-}
-
 .text {
   font-family: 'Barlow Semi Condensed', cursive;
   font-size: 1rem;
@@ -47,7 +32,6 @@ h1 {
 	place-self: center;
   text-align: justify;
 	width: min(100%, 40em);
-	padding: 1.2em;
   font-family: 'Barlow Semi Condensed', cursive;
   border-radius: 20px;
 	
