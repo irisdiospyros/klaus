@@ -58,7 +58,7 @@ h1 {
 
 .text {
   font-family: 'Barlow Semi Condensed', cursive;
-  font-size: 1.5rem;
+  font-size: 1rem;
   grid-area: 1 / 2;
 	--n: 4;
 	place-self: center;
@@ -76,6 +76,6 @@ h1 {
 		color: crimson;
     font-weight: 900;
     font-size: calc(var(--n) * 1.29em);
-    line-height: 1.3em;
+    line-height: 1.7em;
 	}
 }
