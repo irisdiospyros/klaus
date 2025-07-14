@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
 
 .container .box {
@@ -29,7 +29,9 @@ p.text {
 }
 
 .text {
-  font-family: 'Coming Soon', cursive !important;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 1rem;
   grid-area: 1 / 2;
 	--n: 4;
