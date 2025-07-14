@@ -37,7 +37,7 @@ p.text {
   text-align: justify;
 	width: min(100%, 40em);
   border-radius: 20px;
-  margin: 0px; !important
+  margin: 0px;
   white-space: pre-line; 
 	
 	&:first-letter {
