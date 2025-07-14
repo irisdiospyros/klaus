@@ -46,10 +46,10 @@ p.text {
     font-family: 'Manufacturing Consent', cursive;
 		float: left;
 		margin-right: .1em;
-		padding-top: 0.095em;
-		color: red;
+		padding-top: 0.09em;
+		color: #851d30;
     font-weight: 900;
-    font-size: calc(var(--n) * 1.45em);
+    font-size: calc(var(--n) * 1.5em);
     line-height: 0.8em;
 	}
 }
