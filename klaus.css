@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
 
 .container .box {
@@ -29,14 +29,13 @@ p.text {
 }
 
 .text {
-  font-family: 'Barlow Semi Condensed', cursive;
+  font-family: 'Coming Soon', cursive;
   font-size: 1rem;
   grid-area: 1 / 2;
 	--n: 4;
 	place-self: center;
   text-align: justify;
 	width: min(100%, 40em);
-  font-family: 'Barlow Semi Condensed', cursive;
   border-radius: 20px;
   margin: 0px; !important
   white-space: pre-line; 
