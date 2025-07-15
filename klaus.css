@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
 
-body {
-  background-color: black !important;
-}
-
 .container .box {
   position: relative;
   margin: 0 auto;
