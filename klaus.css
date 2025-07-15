@@ -43,6 +43,7 @@
   border-radius: 20px;
   margin: 0;
   white-space: pre-line;
+  color: #f9f9f9;
   --n: 4;
 	
 	&:first-letter {
@@ -52,7 +53,7 @@
 		padding-top: 0.095em;
 		color: #851d30;
     font-weight: 900;
-    font-size: calc(var(--n) * 1.25em);
+    font-size: calc(var(--n) * 1.22em);
     line-height: 0.7em;
 	}
 }
