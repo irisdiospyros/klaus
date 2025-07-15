@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 .container .box {
   position: relative;
@@ -34,7 +34,7 @@
 }
 
 .text-post {
-  font-family: "Libre Caslon Display", serif !important;
+  font-family: "PT Serif", serif !important;
   font-weight: 400;
   font-style: normal;
   font-size: 1.2rem;
