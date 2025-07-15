@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
 
 .container .box {
   position: relative;
@@ -22,6 +22,15 @@
   border-radius: 8px;
   z-index: 1;
   color: #fff;
+}
+
+h1 {
+  font-family: "Splash", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  text-align: center;
+  margin: 1rem
 }
 
 p.text {
