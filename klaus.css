@@ -34,23 +34,17 @@
   margin-bottom: 0.4rem !important;
 }
 
-p.text {
-  margin: 0 !important;
-}
-
 .text {
   font-family: "Libre Caslon Display", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-  grid-area: 1 / 2;
-	--n: 4;
-	place-self: center;
   text-align: justify;
-	width: min(100%, 40em);
+  width: min(100%, 40em);
   border-radius: 20px;
-  margin: 0px;
-  white-space: pre-line; 
+  margin: 0;
+  white-space: pre-line;
+  --n: 4;
 	
 	&:first-letter {
     font-family: 'Manufacturing Consent', cursive;
