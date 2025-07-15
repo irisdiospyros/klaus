@@ -28,7 +28,7 @@
   font-family: "Splash", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 4rem !important;
   text-align: center;
   margin: 1rem
 }
