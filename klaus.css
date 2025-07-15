@@ -34,8 +34,8 @@
   margin-bottom: 0.4rem !important;
 }
 
-.text {
-  font-family: "Libre Caslon Display", serif;
+.text-post {
+  font-family: "Libre Caslon Display", serif !important;
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
