@@ -1,5 +1,60 @@
-.klaus-test {
-  background:red;
-  color:white;
-  padding:20px;
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+.container .box {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.container .box .content-post /* ombre */
+{
+  position: relative;
+  left: 0;
+  padding: 1rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(1rem);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.title-post {
+  font-family: "Splash", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem !important;
+  text-align: center;
+  margin: 1rem;
+  margin-bottom: 0.4rem !important;
+  color: #851d30;
+}
+
+.text-post {
+  font-family: "PT Serif", serif !important;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-align: justify;
+  width: min(100%, 40em);
+  border-radius: 20px;
+  margin: 0;
+  white-space: pre-line;
+  color: #f9f9f9;
+  --n: 4;
+	
+	&:first-letter {
+    font-family: 'Manufacturing Consent', cursive;
+    float: left;
+    margin-right: .1em;
+    padding-top: 0.095em;
+    color: #851d30;
+    font-weight: 400;
+    font-size: calc(var(--n) * 1.22em);
+    line-height: 0.7em;
+	}
 }
