@@ -57,3 +57,31 @@
   text-align: right;
   opacity: 0.6;
 }
+
+
+
+
+
+
+
+
+  .box {
+    display: flex;
+    width: 600px; /* largeur de ta box */
+    height: 300px; /* hauteur de ta box */
+    border: 2px solid #333;
+    overflow: hidden;
+  }
+
+  .box-image {
+    flex: 0 0 50%; /* l'image prend la moitié de la box */
+    height: 100%;
+    background-image: url('https://i.pinimg.com/1200x/c4/c5/2c/c4c52c5d6ee40efe355b92c6902b5598.jpg');
+    background-size: cover; /* couvre toute la div */
+    background-position: center right; /* centre verticalement, montre la moitié droite */
+  }
+
+  .box-content {
+    flex: 1;
+    padding: 20px;
+  }
