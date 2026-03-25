@@ -1,85 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+/* IMPORT GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=EB+Garamond&display=swap');
 
-.container {
-  display: flex;
-  justify-content: center;
-  padding: 3rem 0;
-}
-
-.box {
-  width: 600px;
-  position: relative;
-}
-
-.content-post {
-  position: relative;
-  padding: 2rem;
-  border-radius: 12px;
-  
-  background: rgba(10, 25, 35, 0.65);
-  backdrop-filter: blur(10px);
-
-  border: 1px solid rgba(39, 106, 214, 0.2);
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
-
-  overflow: hidden;
-}
-
-/* LIGNE LUMIÈRE ANIMÉE */
-.content-post::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 200%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #276ad6, transparent);
-  animation: slide 6s linear infinite;
-}
-
-@keyframes slide {
-  0% { left: -100%; }
-  100% { left: 100%; }
+/* CONTENEUR GLOBAL */
+.rp-post {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 25px;
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 10px;
+  color: #ddd;
+  font-family: 'EB Garamond', serif;
+  line-height: 1.6;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 /* TITRE */
-.title-post {
+.rp-title {
   font-family: 'Cinzel', serif;
-  font-size: 2rem;
+  font-size: 28px;
   text-align: center;
-  color: #276ad6;
-  margin-bottom: 1.5rem;
   letter-spacing: 2px;
+  margin-bottom: 15px;
+  color: #f5e6c8;
+  position: relative;
+}
+
+.rp-title::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 1px;
+  background: #555;
+  margin: 10px auto 0;
+}
+
+/* LETTRINE */
+.rp-post p::first-letter {
+  float: left;
+  font-size: 50px;
+  line-height: 40px;
+  padding-right: 8px;
+  font-family: 'Cinzel', serif;
+  color: #c9a96e;
 }
 
 /* TEXTE */
-.text-post {
-  font-family: 'PT Serif', serif;
-  font-size: 1.05rem;
-  line-height: 1.7;
+.rp-text {
   text-align: justify;
-  color: #dbe9f4;
 }
 
-/* LETTRINE GOTHIQUE */
-.text-post:first-letter {
-  font-family: 'UnifrakturCook', cursive;
-  float: left;
-  font-size: 3.5em;
-  line-height: 0.8;
-  margin-right: 0.15em;
-  color: #276ad6;
-}
-
-/* PAROLES */
-.text-post b {
-  color: #276ad6;
-}
-
-/* PETIT EFFET HOVER (vivant mais discret) */
-.content-post:hover {
-  box-shadow: 0 0 25px rgba(39, 106, 214, 0.3);
-  transition: 0.3s;
+/* PETITE SIGNATURE / FOOT */
+.rp-footer {
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: right;
+  opacity: 0.6;
 }
