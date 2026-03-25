@@ -13,6 +13,7 @@
   background-size: auto 100%; /* hauteur à 100%, largeur auto pour garder le ratio */
   background-position: left top; /* force le côté gauche */
   background-repeat: no-repeat;
+  margin: -50%,
   overflow: hidden; /* assure que rien ne déborde */
 }
 
