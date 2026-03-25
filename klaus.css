@@ -63,25 +63,34 @@
 
 
 
+.box {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
 
-
-  .box {
+  .container {
     display: flex;
-    width: 600px; /* largeur de ta box */
-    height: 300px; /* hauteur de ta box */
+    width: 800px;      /* largeur totale de la box */
+    height: 600px;     /* hauteur très grande */
     border: 2px solid #333;
     overflow: hidden;
   }
 
-  .box-image {
-    flex: 0 0 50%; /* l'image prend la moitié de la box */
+  .image-left {
+    flex: 0 0 50%; /* moitié gauche de la box */
     height: 100%;
     background-image: url('https://i.pinimg.com/1200x/c4/c5/2c/c4c52c5d6ee40efe355b92c6902b5598.jpg');
-    background-size: cover; /* couvre toute la div */
-    background-position: center right; /* centre verticalement, montre la moitié droite */
+    background-size: cover;        /* couvrir toute la div */
+    background-position: left;     /* afficher la moitié gauche */
+    background-repeat: no-repeat;
   }
 
-  .box-content {
+  .text-right {
     flex: 1;
+    height: 100%;
+    overflow-y: auto; /* permet le défilement vertical */
     padding: 20px;
+    box-sizing: border-box;
+    line-height: 1.5;
   }
