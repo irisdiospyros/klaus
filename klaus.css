@@ -1,60 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
-.container .box {
-  position: relative;
-  margin: 0 auto;
-  width: 80%;
-  height: auto;
+.container {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
 }
 
-.container .box .content-post /* ombre */
-{
+.box {
+  width: 600px;
   position: relative;
-  left: 0;
-  padding: 1rem 1rem;
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(1rem);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  z-index: 1;
 }
 
+.content-post {
+  position: relative;
+  padding: 2rem;
+  border-radius: 12px;
+  
+  background: rgba(10, 25, 35, 0.65);
+  backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(39, 106, 214, 0.2);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+
+  overflow: hidden;
+}
+
+/* LIGNE LUMIÈRE ANIMÉE */
+.content-post::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #276ad6, transparent);
+  animation: slide 6s linear infinite;
+}
+
+@keyframes slide {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+/* TITRE */
 .title-post {
-  font-family: "Splash", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 2.5rem !important;
+  font-family: 'Cinzel', serif;
+  font-size: 2rem;
   text-align: center;
-  margin: 1rem;
-  margin-bottom: 0.4rem !important;
-  color: #851d30;
+  color: #276ad6;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
 }
 
+/* TEXTE */
 .text-post {
-  font-family: "PT Serif", serif !important;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.2rem;
+  font-family: 'PT Serif', serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
   text-align: justify;
-  width: min(100%, 40em);
-  border-radius: 20px;
-  margin: 0;
-  white-space: pre-line;
-  color: #f9f9f9;
-  --n: 4;
-	
-	&:first-letter {
-    font-family: 'Manufacturing Consent', cursive;
-    float: left;
-    margin-right: .1em;
-    padding-top: 0.095em;
-    color: #851d30;
-    font-weight: 400;
-    font-size: calc(var(--n) * 1.22em);
-    line-height: 0.7em;
-	}
+  color: #dbe9f4;
+}
+
+/* LETTRINE GOTHIQUE */
+.text-post:first-letter {
+  font-family: 'UnifrakturCook', cursive;
+  float: left;
+  font-size: 3.5em;
+  line-height: 0.8;
+  margin-right: 0.15em;
+  color: #276ad6;
+}
+
+/* PAROLES */
+.text-post b {
+  color: #276ad6;
+}
+
+/* PETIT EFFET HOVER (vivant mais discret) */
+.content-post:hover {
+  box-shadow: 0 0 25px rgba(39, 106, 214, 0.3);
+  transition: 0.3s;
 }
